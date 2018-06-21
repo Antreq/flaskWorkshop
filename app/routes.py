@@ -15,4 +15,4 @@ def index():
 			'date': 'May 11'
 		}
 	]
-	return render_template('index.html', user=user, title='UPSLP', events=events)
+	return render_template('index.html', user=user, title='Testigos', events=events)
