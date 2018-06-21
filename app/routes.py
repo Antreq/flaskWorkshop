@@ -13,7 +13,7 @@ def index():
 		{
 			'name': 'Qiqe',
 			'date': '1709 5990 0028'
-		}
+		},
 		{
 			'name': 'Saurios21',
 			'date': '1189 7617 0817'
