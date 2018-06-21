@@ -1,12 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block content%}
-	<h1> Hello 
-		{% if user %}
-			{{user.username}}
-		{% else %}
-			Unkwon
-		{% endif %}
+	<h1> Usuarios con nombre y código de amigos
 	</h1>
 	<ul>
 		{% for event in events %}
