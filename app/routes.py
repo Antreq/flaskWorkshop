@@ -7,12 +7,12 @@ def index():
 	user = {'username': 'Antonio'}
 	events = [
 		{
-			'name': 'Workshop Python', 
-			'date': 'May 10'
+			'name': 'Antonio', 
+			'date': '111111111111'
 		},
 		{
-			'name': 'Captura la bandera',
-			'date': 'May 11'
+			'name': 'Qiqe',
+			'date': '1111111111111'
 		}
 	]
 	return render_template('index.html', user=user, title='Testigos', events=events)
