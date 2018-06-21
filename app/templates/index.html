@@ -3,9 +3,10 @@
 {% block content%}
 	<h1> Usuarios con nombre y código de amigos
 	</h1>
-	<ul>
+	<table>
 		{% for event in events %}
-			<li>{{event.name }} - {{event.date}}</li>
+			<tr><td>{{event.name }}</td><td>{{event.date}}</td>
+			</tr>
 		{% endfor %}
-	</ul>
+	</table>
 {% endblock%}
